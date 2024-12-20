@@ -95,3 +95,9 @@ To simplify Docker operations, you can use the Docker extension in VSCode:
 ├── docker-compose.yml  # Docker services configuration\
 └── README.md           # This file\
 
+## Common Issues & Solutions
+Ensure you have all dependancies installed. Run
+`npm install`
+`pip install -r requirements.txt`
+If the set up takes a lot of time try running
+`docker login`
