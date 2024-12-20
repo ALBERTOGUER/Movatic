@@ -1,5 +1,5 @@
 # Docker Official Image Node
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Set working directory in the container
 WORKDIR /app
