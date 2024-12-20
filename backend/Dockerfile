@@ -28,10 +28,13 @@ COPY . /app
 
 #Set variable evirnment
 ENV FLASK_APP=app
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=a5000
+ENV FLASK_ENV=development
 
 # Expose the port from container
 EXPOSE 5000
 
 #Command for running the application
-CMD ["flask","--app","app","run","--host", "0.0.0.0", "--debug"]
+CMD ["flask","run"]
 
