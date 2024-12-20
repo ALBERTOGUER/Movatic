@@ -99,5 +99,5 @@ To simplify Docker operations, you can use the Docker extension in VSCode:
 Ensure you have all dependancies installed. Run
 `npm install`
 `pip install -r requirements.txt`
-If the set up takes a lot of time try running
+If the set up takes a lot of time try running\
 `docker login`

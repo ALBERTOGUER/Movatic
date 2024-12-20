@@ -36,5 +36,5 @@ ENV FLASK_ENV=development
 EXPOSE 5000
 
 #Command for running the application
-CMD ["flask","run"]
+CMD ["flask","run", "--debug"]
 
