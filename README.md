@@ -5,9 +5,10 @@
 ## Prerequisites
 1. Docker: Install Docker following the [official guide](https://www.docker.com/).
 2. Docker Compose: Ensure you have Docker Compose installed (it comes bundled with Docker Desktop).
-3. Node.js Install Node.js (preferably the latest LTS version) from [here](https://nodejs.org/en/download/package-manager/current)
+3. Node.js Install Node.js version 20 from [here](https://nodejs.org/en/download/package-manager/current)
 4. Visual Studio Code (optional): Download from [here](https://code.visualstudio.com/download).
 5. Docker Extension for VSCode (optional): Install it from the VSCode Marketplace.
+6. Tailwind CSS extension for VSCode (optional)
 
 ## Steps to Run the Project
 ### 1. First Run - Force Build
@@ -101,3 +102,31 @@ Ensure you have all dependancies installed. Run
 `pip install -r requirements.txt`
 If the set up takes a lot of time try running\
 `docker login`
+
+## links
+[Bcycle madison official documentation](https://madison.bcycle.com/)
+
+[API url´s Bcycle madison](https://madison.bcycle.com/)
+
+[GBFS](https://github.com/MobilityData/gbfs)
+
+[GBFS](https://github.com/MobilityData/gbfs)
+
+[GBFS json schema TypeScript library](https://github.com/MobilityData/gbfs-json-schema/blob/master/models/typescript/README.md)
+
+[React router](https://reactrouter.com/)
+
+[Tailwind](https://tailwindcss.com/docs/)
+
+[Python Flask](https://flask.palletsprojects.com/en/stable/)
+
+[Flask Cors](https://pypi.org/project/Flask-Cors/)
+
+[Docker official Images Flask](https://docs.docker.com/reference/samples/flask/)
+
+[Docker official Images Node](https://hub.docker.com/_/node)
+
+
+
+
+

@@ -26,7 +26,7 @@ RUN pip install -r requirements.txt
 # Copy code
 COPY . /app
 
-#Set variable evirnment
+#Set variable evironment Flask will take these variable environment instead of .flaskenv file
 ENV FLASK_APP=app
 ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_RUN_PORT=a5000
